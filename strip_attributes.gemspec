@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
     "source_code_uri"   => "https://github.com/rmm5t/strip_attributes",
   }
 
-  spec.add_runtime_dependency "activemodel", ">= 3.0", "< 8.0"
+  spec.add_runtime_dependency "activemodel", ">= 3.0", "< 8.1"
   spec.add_development_dependency "active_attr", "~> 0.15"
   spec.add_development_dependency "minitest", ">= 5.0", "< 6.0"
   spec.add_development_dependency "minitest-matchers_vaccine", "~> 1.0" unless ENV["SKIP_VACCINE"]
